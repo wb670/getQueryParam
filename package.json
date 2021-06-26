@@ -1,12 +1,20 @@
 {
-  "name": "getQueryParam",
-  "version": "0.0.1",
+  "name": "@lion.wang/get-query-param",
+  "version": "0.1.0",
   "description": "get Query Param",
   "main": "getQueryParam.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wb670/getQueryParam.git"
+  },
+  "homepage": "https://github.com/wb670/getQueryParam#readme",
   "keywords": [],
   "author": "Lion.Wang",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wb670/getQueryParam/issues"
+  }
 }

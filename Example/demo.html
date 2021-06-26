@@ -1,0 +1,22 @@
+<!--
+ * @Date: 2021-06-26 19:16:16
+ * @LastEditors: lion.wang
+ * @FilePath: /getQueryParam/Example/demo.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>demo</title>
+</head>
+<body>
+  <p id="output"></p>
+  <script type="module">
+    import getQueryParam from "../getQueryParam.js"
+    document.getElementById("output").innerText = getQueryParam()
+    console.log(getQueryParam());
+  </script>
+</body>
+</html>
